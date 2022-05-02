@@ -1,7 +1,7 @@
 <template>
     <div class="jumbotron">
         <div class="container">
-            <h3>Pronti per iniziare il viaggio?</h3>
+            <h3>Pronti per iniziare?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eius temporibus fugiat impedit rem. Dolorem, fuga eius quasi expedita ratione vero atque nemo distinctio facere et veritatis repudiandae deleniti consequuntur?</p>
         </div>
     </div>
