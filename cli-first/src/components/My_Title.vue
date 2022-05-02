@@ -9,5 +9,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+    h1 {
+        margin: 2rem;
+    }
 </style>
