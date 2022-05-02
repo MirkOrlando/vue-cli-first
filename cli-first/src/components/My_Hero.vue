@@ -1,8 +1,10 @@
 <template>
     <div class="jumbotron">
         <div class="container">
+            <div class="jumboText">
             <h3>Pronti per iniziare?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eius temporibus fugiat impedit rem. Dolorem, fuga eius quasi expedita ratione vero atque nemo distinctio facere et veritatis repudiandae deleniti consequuntur?</p>
+            </div>
         </div>
     </div>
 </template>
@@ -15,11 +17,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
 
     .jumbotron {
         background-image: url('https://wallpapercave.com/wp/wp5252098.jpg');
@@ -28,21 +25,26 @@ export default {
         background-position-y: 23%;
         background-repeat: no-repeat;
         color: rgb(247 230 207);
-        padding: 6rem;
+        padding: 4rem;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 2rem auto;
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
     }
-    
-    .container {
+
+    .jumboText {
         width: calc(100% / 4);
         padding: 1rem;
         background-color: rgb(46 47 42 / 40%);
         border-radius: 1rem;
     }
 
-    .container > h3,
-    .container > p {
+    .jumboText > h3,
+    .jumboText > p {
         margin: 2rem 0;
     }
 
